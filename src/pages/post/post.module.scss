@@ -1,1 +1,50 @@
-// TODO
+.banner {
+  img {
+    width: 100%;
+  }
+}
+
+.content {
+  margin-top: 5.5rem;
+
+  h1 {
+    color: var(--heading);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .info {
+    color: var(--info);
+    display: flex;
+
+    div {
+      margin-right: 1.6rem;
+    }
+
+    span,
+    time {
+      margin-left: 0.5rem;
+    }
+  }
+
+  .postContent {
+    margin: 4.2rem 0;
+
+    h2 {
+      color: var(--heading);
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+      line-height: 3rem;
+    }
+
+    p {
+      color: var(--body);
+      margin-bottom: 1.5rem;
+      line-height: 1.5rem;
+    }
+
+    a {
+      color: var(--highlight);
+    }
+  }
+}

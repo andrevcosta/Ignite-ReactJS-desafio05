@@ -1,1 +1,45 @@
 // TODO
+.content {
+  margin-top: 2rem;
+
+  a {
+    display: block;
+
+    & + a {
+      margin-top: 3.5rem;
+    }
+
+    h1 {
+      color: var(--heading);
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      color: var(--body);
+      margin-bottom: 1.5rem;
+    }
+
+    .info {
+      color: var(--info);
+      display: flex;
+
+      & > div {
+        margin-right: 1.6rem;
+      }
+
+      span,
+      time {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+  button {
+    margin: 2rem 0;
+    background: transparent;
+    border: none;
+    color: var(--highlight);
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+}
